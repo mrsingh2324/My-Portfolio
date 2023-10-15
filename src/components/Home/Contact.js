@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 // import { FaPhoneSlash, FaContactCard } from 'react-icons/fa';
-import {AiOutlineMail} from 'react-icons/ai'
-import {BiPhoneCall}  from 'react-icons/bi'
+import { AiOutlineMail } from 'react-icons/ai'
+import { BiPhoneCall } from 'react-icons/bi'
 
 const Contact = () => {
     const [formStatus, setFormStatus] = useState(null);
@@ -31,10 +31,10 @@ const Contact = () => {
         }
     };
     return (
-        <div className='w-[90%] h-screen bg-gray-950 text-white flex sm:flex-col lg:flex-row'>
-            <div className='lg:w-[50%] px-10 py-5 sm:mt-10 md:mt-0 sm:text-center sm:items-center flex flex-col justify-center gap-16'>
-                <p className='text-7xl'>Let`s Discuss Together</p>
-                <div className='flex lg:flex-col gap-10' >
+        <div className='w-full bg-gray-950 text-white flex flex-col sm:flex-row'>
+            <div className='lg:w-[50%] lg:w-full px-5 py-5 sm:mt-10 md:mt-0 sm:text-center sm:items-center flex flex-col justify-center gap-16'>
+                <p className='lg:text-7xl sm:text-3xl'>Let`s Discuss Together</p>
+                <div className='flex lg:flex-col gap-10'>
                     <div className='flex flex-row gap-5 items-center'>
                         <AiOutlineMail className='text-4xl font-bold text-yellow-500 hover:text-yellow-100' />
                         <a className='text-4xl font-bold text-yellow-500 hover:text-yellow-100' href='tel:+6281234567890'>Call Me</a>
@@ -44,10 +44,8 @@ const Contact = () => {
                         <a className='text-4xl font-bold text-yellow-500 hover:text-yellow-100' href='mailto:satyam.12011172@gmail.com'> Mail Me</a>
                     </div>
                 </div>
-
-
             </div>
-            <form className='flex mb-10 lg:w-[40%] justify-center p-10 flex-col gap-5' onSubmit={handleFormSubmit}>
+            <form className='flex  mb-10 lg:w-[40%] lg:w-full justify-center p-10 flex-col gap-5' onSubmit={handleFormSubmit}>
                 <div className='flex flex-col gap-5'>
                     <input type='text' placeholder='Name' name='user_name' id='name' className='bg-gray-900 p-5 rounded rounded-xl font-bold text-xl' />
                 </div>

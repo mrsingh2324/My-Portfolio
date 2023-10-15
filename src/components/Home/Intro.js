@@ -21,7 +21,7 @@ const Intro = () => {
     }
   ]
   return (
-    <div className='flex gap-10 my-20 sm:flex-wrap items-center justify-center '>
+    <div className='flex gap-10 my-20 flex-col md:flex-wrap items-center justify-center '>
       {data.map((item) => {
 
         return (<IntroCards data={item} />)

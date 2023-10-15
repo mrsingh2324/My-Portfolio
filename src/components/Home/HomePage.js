@@ -15,7 +15,7 @@ import Copyright from './Copyright'
 
 const HomePage = () => {
   return (
-    <div className=' items-center font-mono bg-gray-900 flex flex-col w-[90%] '>
+    <div className=' items-center overflow-hidden font-mono bg-gray-900 flex flex-col w-[90%]  '>
         {/* <Header /> */}
         <Home/>
         <Services />

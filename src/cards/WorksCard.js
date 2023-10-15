@@ -5,7 +5,7 @@ const WorksCard = ({ work }) => {
   const { category, title, description, caseStudyLink, imageSrc } = work;
 
   return (
-    <div className='text-white sm:mt-10 lg:mt-0 sm:flex-col flex lg:flex-row bg-gray-950 lg:h-[100%]'>
+    <div className='text-white sm:mt-10 sm:flex-col lg:mt-0 flex-col flex lg:flex-row bg-gray-950 lg:h-[100%]'>
       <div className='flex flex-col py-30 px-20 lg:w-[50%] h-[100%] lg:gap-16 sm:gap-2 mb-24 lg:mt-20'>
         <div>
           <p className='text-2xl text-gray-500 underline w-[100%]'>{category}</p>

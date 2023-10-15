@@ -45,7 +45,6 @@ const Works = () => {
     <div className='flex flex-col bg-gray-950 gap-5 overflow-y-scroll sm:w-full lg:w-[90%] h-[80vh] mb-10 scrollbar-none'>
       {demoWorks.map((work) => (
         <WorksCard key={work.id} work={work} />
-        
       ))}
     </div>
   );

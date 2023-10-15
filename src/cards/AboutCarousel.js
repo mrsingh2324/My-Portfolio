@@ -43,7 +43,7 @@ const AboutCarousel = () => {
     ];
 
     return (
-        <Carousel className='w-[50%] mt-[12%]' >
+        <Carousel className='w-[100%] md:w-[50%]' >
             {skillsData.map((skill, index) => (
                 <div key={index} className="bg-yellow-500  w-[100%] p-4 rounded-3xl">
                     {/* <h1 className="text-8xl font-bold">"</h1> */}
