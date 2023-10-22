@@ -61,7 +61,7 @@ const Header = () => {
       <div className='lg:w-auto flex items-center mr-4'>
 
         <button className='px-2 py-1 bg-yellow-500 text-black font-semibold hover:bg-transparent text-2xl border border-yellow-500 hover:text-white transition-[1s]'>
-          <a href='https://wa.me/+919758051994'> Let's Talk </a>
+          <a href='https://wa.me/+919758051994'  target='_blank'> Let's Talk </a>
         </button>
       </div>
     </div>

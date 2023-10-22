@@ -8,11 +8,11 @@ const Home = () => {
     <div className="home w-full md:w-[90%] mb-20 overflow-hidden text-white flex flex-col md:flex-row items-center justify-center">
       <div className="w-full md:w-[50%] p-5 md:p-0">
         
-          <p className="p-2 md:ml-20 items-center justify-center gap-5 flex text-5xl md:text-6xl font-bold text-white mt-4">
+          <p className="py-2 md:items-start md:justify-left lg:m-0 items-center justify-center md:justify-start gap-5 flex text-5xl md:text-6xl font-bold text-white ">
             Satyam <span className="text-yellow-500">Singh</span>
           </p>
 
-        <div className="flex h-[180px] w-full flex-col  md:flex-row items-center text-3xl md:text-4xl gap-5 mt-5 bg-gray-950 ">
+        <div className="flex h-[180px] w-full flex-col  md:flex-row items-center text-3xl md:text-4xl gap-5 mt-5  md:bg-gray-900 bg-gray-950 ">
           <p className="md:mr-2">I am a</p>
           <div className="text-yellow-500 md:w-[40%] items-center text-center w-full font-bold">
             <Typewriter
@@ -24,7 +24,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="lg:mt-10  sm:self-center md:items-start items-center flex flex flex-col md:flex-row gap-5">
+        <div className="lg:mt-10  sm:self-center md:items-left items-center flex flex flex-col md:flex-row gap-5">
           <a href={CV} download="Satyam Singh CV">
             <button className="bg-yellow-500 hover:bg-transparent hover:border-2 hover:border-yellow-500 hover:text-white border-2 rounded-2xl text-2xl font-bold p-4 px-8">
               Resume
