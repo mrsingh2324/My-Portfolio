@@ -4,7 +4,8 @@ import {
   FaTwitter,
   FaInstagram,
   FaGithub,
-  FaFacebook
+  FaFacebook,
+  FaLinkedin
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -16,11 +17,19 @@ const Footer = () => {
           <FaAddressBook className='text-2xl sm:text-4xl text-yellow-500' />
           <p className='text-yellow-500'>Satyam Singh</p>
         </div>
-        <div className='text-gray-700 text-4xl flex flex-row gap-5 '>
-          <FaTwitter className='hover:text-yellow-500 cursor-pointer ' />
-          <FaInstagram className='hover:text-yellow-500 cursor-pointer ' />
-          <FaGithub className='hover:text-yellow-500 cursor-pointer ' />
-          <FaFacebook className='hover:text-yellow-500 cursor-pointer ' />
+        <div className='text-gray-700 text-4xl flex flex-row gap-5'>
+          <a href='https://twitter.com/mr_singh2324' className='hover:text-yellow-500 cursor-pointer'>
+            <FaTwitter />
+          </a>
+          <a href='https://www.instagram.com/satyamsingh.cc' className='hover:text-yellow-500 cursor-pointer'>
+            <FaInstagram />
+          </a>
+          <a href='https://www.github.com/mrsingh2324' className='hover:text-yellow-500 cursor-pointer'>
+            <FaGithub />
+          </a>
+          <a href='https://www.linkedin.com/in/mrsatyamsingh/' className='hover:text-yellow-500 cursor-pointer'>
+            <FaLinkedin />
+          </a>
         </div>
       </div>
       <div className='hidden md:w-[20%] lg:flex'>

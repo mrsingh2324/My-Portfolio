@@ -7,8 +7,7 @@ const ServicesPage = () => {
   return (
     <div className='w-[90%] mt-20 '>
       <Services />
-      <Contact />      
-
+      <Contact />
     </div>
   )
 }

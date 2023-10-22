@@ -31,7 +31,7 @@ const Contact = () => {
         }
     };
     return (
-        <div className='w-full bg-gray-950 text-white flex flex-col sm:flex-row'>
+        <div className='w-full border  bg-gray-950 text-white lg:flex  '>
             <div className='lg:w-[50%] lg:w-full px-5 py-5 sm:mt-10 md:mt-0 sm:text-center sm:items-center flex flex-col justify-center gap-16'>
                 <p className='lg:text-7xl sm:text-3xl'>Let`s Discuss Together</p>
                 <div className='flex lg:flex-col gap-10'>
