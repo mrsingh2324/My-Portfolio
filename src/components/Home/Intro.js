@@ -22,7 +22,7 @@ const data = [
 
 const Intro = () => {
   return (
-    <div className=' my-10 border p-10 cursor:pointer flex flex-wrap justify-center gap-4 md:gap-10 mx-4 md:mx-0'>
+    <div className=' my-10 sm:border md:border-none p-10 cursor:pointer flex flex-wrap justify-center gap-4 md:gap-10 mx-4 md:mx-0'>
       {data.map((item, index) => (
         <IntroCards key={index} data={item}  />
       ))}
